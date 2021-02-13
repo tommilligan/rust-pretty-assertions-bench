@@ -31,3 +31,12 @@ cd ../rust-pretty-assertions-bench
 cargo bench
 xdg-open target/criterion/report/index.html
 ```
+
+You may like to save a stable branch banchmark under a name, to compare other branches to:
+
+```bash
+git checkout main
+cargo bench --bench bench_main -- --save-baseline main
+git checkout "$MY_BRANCH_NAME"
+cargo bench --bench bench_main -- --baseline main
+```

@@ -8,6 +8,9 @@ edition = "2018"
 criterion = { version = "0.3.4", features = ["html_reports"] }
 pretty_assertions = { path = "../rust-pretty-assertions" }
 
+[lib]
+bench = false
+
 [[bench]]
 name = "bench_main"
 harness = false
