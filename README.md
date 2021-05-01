@@ -1,3 +1,7 @@
+# Archive notice
+
+**Please note:** These benchmarks have moved to the [rust-pretty-assertions](https://github.com/colin-kiegel/rust-pretty-assertions) official repo. This repo is now archived.
+
 # Benchmarks for `pretty_assertions`
 
 To avoid pulling in many, many additional development dependencies, the benchmarks for `pretty_assertions` are in a separate repo.
